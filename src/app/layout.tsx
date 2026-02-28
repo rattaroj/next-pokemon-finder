@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-slate-50">
-        <header className="bg-red-600 shadow-lg sticky top-0 z-50">
+        <header className="bg-blue-600 shadow-lg sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-3 h-16">
               <div className="w-8 h-8 rounded-full bg-white border-4 border-gray-800 relative flex-shrink-0">
@@ -40,7 +40,7 @@ export default function RootLayout({
             rel="noopener noreferrer"
             className="text-red-500 hover:text-red-600 font-medium"
           >
-            PokéAPI
+            PokeAPI
           </a>
         </footer>
       </body>
